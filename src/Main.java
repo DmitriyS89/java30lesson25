@@ -1,5 +1,7 @@
-arr.forEach(function(item) {
+// Use a for loop to console.log contents.
 
-    console.log(item);
+for(var i=0; i<arr.length; i++) {
 
-});
+        console.log(arr[i]);
+
+}
